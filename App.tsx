@@ -141,7 +141,9 @@ const App: React.FC = () => {
                   <p className="font-semibold tracking-tight">분석을 시작할 수 없습니다.</p>
                   <p>{analysisError}</p>
                   <p className="text-xs text-rose-600 opacity-80">
-                    OPENAI_API_KEY를 <code className="rounded bg-white px-1 py-px border border-rose-200">.env.local</code>에 정확히 입력하고 개발 서버를 재시작해 주세요.
+                    로컬에서는 <code className="rounded bg-white px-1 py-px border border-rose-200">.env.local</code>에
+                    <code className="rounded bg-white px-1 py-px border border-rose-200 ml-1">OPENAI_API_KEY</code>를 설정하고,
+                    Netlify에서는 Site settings → Environment variables에 <code className="rounded bg-white px-1 py-px border border-rose-200">OPENAI_API_KEY</code>를 추가한 뒤 재배포해 주세요.
                   </p>
                 </div>
               )}
