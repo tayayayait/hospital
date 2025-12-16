@@ -1,0 +1,5 @@
+{
+  "name": "MedAI-Reporter MVP",
+  "description": "AI 기반 이미지 분석을 통해 연구원과 임상의를 위한 표준화된 참고 보고서를 생성하는 도구입니다.",
+  "requestFramePermissions": []
+}
